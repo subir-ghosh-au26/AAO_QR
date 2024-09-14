@@ -110,7 +110,7 @@ const Home = () => {
                 <td>
                   Your Course Coordinater
                 </td>
-                <td>{searchResult.Coordinater}</td>
+                <td>{searchResult.Coordinater}<br />(Assistant Director)</td>
               </tr>
               <tr>
                 <td>
@@ -137,7 +137,7 @@ const Home = () => {
                   Your Allocated Mess
                 </td>
                 <td>
-                  {searchResult.Mess}&nbsp;&nbsp;{searchResult.Mess === "Niranjana" ? <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d876.2646662423736!2d84.97777459999999!3d24.76137120000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32bfa4128964d%3A0x4cceb80f1fe5980d!2sNiranjana%20Mess!5e1!3m2!1sen!2sin!4v1690628439556!5m2!1sen!2sin' width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='mess'></iframe> : <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d876.2634016250117!2d84.97845719697027!3d24.76155047158706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32b687481f5f9%3A0x340cd9aa6b7d67ea!2sAnnapurna%20Mess!5e1!3m2!1sen!2sin!4v1690629068221!5m2!1sen!2sin" width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='annapurna'></iframe>}
+                  {searchResult.Mess}&nbsp;&nbsp;{searchResult.Mess === "Sujata_Mess" ? <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d342.1310640223616!2d84.97912429668487!3d24.7608061603529!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1726285611002!5m2!1sen!2sin" width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='mess'></iframe> : <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d876.2634016250117!2d84.97845719697027!3d24.76155047158706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32b687481f5f9%3A0x340cd9aa6b7d67ea!2sAnnapurna%20Mess!5e1!3m2!1sen!2sin!4v1690629068221!5m2!1sen!2sin" width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='annapurna'></iframe>}
                 </td>
               </tr>
             </tbody>

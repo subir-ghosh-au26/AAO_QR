@@ -1,8 +1,8 @@
 import React from "react";
 import data from '../asset/data';
 
-function Details(){
-    const [searchTerm, setSearchTerm] = useState('');
+function Details() {
+  const [searchTerm, setSearchTerm] = useState('');
   const [searchResult, setSearchResult] = useState(null);
   const [error, setError] = useState(null);
 
@@ -28,17 +28,17 @@ function Details(){
       setError('No matching details found');
     }
   };
-    return(
-        {searchResult && (
-        <>
-      
+  return (
+    { searchResult && (
+      <>
+
         <img src={bipard} alt="" width="120" height="120" />
         <h3>Bihar Institute Of Public Administration & Rural Development</h3>
         <h4>Gaya</h4>
         <h2 className='text-info'>Hi, <span className='text-danger'>{searchResult.Name}</span> Welcome to BIPARD</h2>
         <table className='table table-hover table-success'>
           <tbody className='text-start fs-4 fw-bold'>
-          <tr>
+            <tr>
               <td>
                 Name
               </td>
@@ -51,7 +51,7 @@ function Details(){
               <td>Assistant Professor</td>
             </tr>
             <tr>
-              
+
               <td>
                 Your Course Coordinater
               </td>
@@ -95,11 +95,11 @@ function Details(){
             </tr>
           </tbody>
         </table>
-        
-        
-      
 
-    </>
+
+
+
+      </>
     )}
     )
 }
