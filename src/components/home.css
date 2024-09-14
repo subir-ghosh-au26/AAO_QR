@@ -1,0 +1,13 @@
+.search{
+    margin-top: 10px;
+    margin-left: auto;
+
+}
+
+body{
+    background-image: url("../asset/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+tr.td {font-family: "Audiowide", sans-serif;}
